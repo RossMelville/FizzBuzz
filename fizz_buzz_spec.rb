@@ -16,7 +16,9 @@ def test_fizz_buzz_15()
   assert_equal("FizzBuzz", fizz_buzz(15))
 end
 
-
+def test_fizz_buzz_7()
+  assert_equal("7", fizz_buzz(7))
+end
 
 
 
