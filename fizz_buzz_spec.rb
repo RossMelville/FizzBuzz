@@ -12,6 +12,10 @@ def test_fizz_buzz_5()
   assert_equal("Buzz", fizz_buzz(5))
 end
 
+def test_fizz_buzz_15()
+  assert_equal("FizzBuzz", fizz_buzz(15))
+end
+
 
 
 
